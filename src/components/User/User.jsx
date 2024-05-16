@@ -11,11 +11,9 @@ const User = ({user}) => {
         borderRadius: '20px',
         background: 'lightgray'
     }
-    const hoverStyle = {
-        background: 'red'
-    }
+    
     return (
-        <div style={userStyle} className={{hover:`${hoverStyle}`}}>
+        <div style={userStyle}>
             <h2>{name}</h2>
             <p>Email: {email}</p>
             <p>Phone: {phone}</p>

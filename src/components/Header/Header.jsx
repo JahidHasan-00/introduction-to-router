@@ -7,6 +7,7 @@ const Header = () => {
                 <span>My Website</span>
                 <Link className="link" to="/">Home</Link>
                 <Link className="link" to="/users">Users</Link>
+                <Link className="link" to="/posts">Posts</Link>
                 <Link className="link" to="/contact">Contact</Link>
                 <Link className="link" to="/about">About Us</Link>
             </nav>
