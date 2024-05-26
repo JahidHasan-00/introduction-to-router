@@ -1,3 +1,11 @@
-.header> .link,span{
+.header> a,span{
     margin-right: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.header a.active {
+    text-decoration: underline;
+    background-color: rgb(205, 203, 203);
+    
 }
